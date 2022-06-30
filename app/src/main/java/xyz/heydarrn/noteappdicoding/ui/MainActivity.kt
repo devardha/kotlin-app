@@ -1,7 +1,8 @@
-package xyz.heydarrn.noteappdicoding
+package xyz.heydarrn.noteappdicoding.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import xyz.heydarrn.noteappdicoding.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
