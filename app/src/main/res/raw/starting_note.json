@@ -1,0 +1,20 @@
+[
+  {
+    "id":1,
+    "title": "Submission 1 Android Fundamental",
+    "description": "Memulai pengerjaan submission 1 android fundamental",
+    "date": "Senin, 27 Juni 2022 12:23:30"
+  },
+  {
+    "id":2,
+    "title": "Menambahkan card untuk tiap user",
+    "description": "card tiap user yang berperan sebagai viewholder",
+    "date": "Selasa, 28 Juni 2022 8:25:05"
+  },
+  {
+    "id":3,
+    "title": "Menambahkan adapter untuk layout manager",
+    "description": "adapter menggunakan list adapter",
+    "date": "Rabu, 29 Juni 2022 13:10:03"
+  }
+]
