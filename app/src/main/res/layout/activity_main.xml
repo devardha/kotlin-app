@@ -10,25 +10,30 @@
         android:id="@+id/recycler_view_note"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        android:scrollbars="horizontal|vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/button_add_note"
+        android:id="@+id/floatingActionButton3"
+        style="?attr/floatingActionButtonLargeStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
         android:clickable="true"
-        android:contentDescription="@string/app_name"
-        android:src="@drawable/ic_baseline_add_24"
+        android:contentDescription="@string/catatan"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.863"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/recycler_view_note"
-        app:layout_constraintVertical_bias="0.976"
-        tools:ignore="ImageContrastCheck"
+        app:srcCompat="@drawable/ic_baseline_add_48"
         android:focusable="true" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

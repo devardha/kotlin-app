@@ -2,4 +2,8 @@
 <resources>
     <string name="date_created_placeholder">Minggu, 3 Juli 2022 14:28:02</string>
     <string name="note_title_placeholder">Submission Android Fundamental</string>
+    <string name="hint_input_note">Isi catatan lengkap</string>
+    <string name="hint_input_note_name">Judul catatan</string>
+    <string name="simpan">Simpan</string>
+    <string name="catatan">Catatan</string>
 </resources>

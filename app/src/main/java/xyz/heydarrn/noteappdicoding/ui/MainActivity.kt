@@ -29,9 +29,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun monitorViewModel() {
-        viewModel.getAllNotes().observe(this) {
-            if (it!=null) {
-                adapterNote.submitList(it)
+        viewModel.getAllNotes().observe(this) { listObserved ->
+            if (listObserved!=null) {
+                adapterNote.submitList(listObserved)
             }
         }
         bindingMain.recyclerViewNote.apply {
